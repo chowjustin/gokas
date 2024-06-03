@@ -13,11 +13,11 @@ export default function ComingSoon() {
           />
           <div className="text-center mt-4">
             <h1 className="font-bold text-6xl">GoKas</h1>
-            <h1 className="text-4xl">Your treasury bestie</h1>
+            <h1 className="text-4xl max-md:text-xl">Your treasury bestie</h1>
           </div>
         </div>
         <div className="absolute flex items-center justify-center transition-opacity duration-500 opacity-0 group-hover:opacity-100">
-          <h1 className="font-bold text-[100px] text-center leading-[100px]">
+          <h1 className="font-bold text-[100px] max-md:text-6xl text-center leading-[100px]">
             COMING SOON
           </h1>
         </div>
