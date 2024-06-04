@@ -1,5 +1,10 @@
 import ComingSoon from "./coming-soon/page";
 import Head from "next/head";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "GoKas | Your Treasury Bestie",
+};
 
 export default function Page() {
   return (
